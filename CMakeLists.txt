@@ -23,8 +23,8 @@ add_subdirectory (resources)
 
 set (SFML_STATIC_LIBRARIES TRUE)
 
-set (SFML_DIR "C:/SFML/SFML-2.5.1/lib/cmake/SFML")
-configure_file ("C:/SFML/SFML-2.5.1/bin/openal32.dll" ${CMAKE_BINARY_DIR} COPYONLY)
+set (SFML_DIR "C:/SFML/SFML-2.6.0/lib/cmake/SFML")
+configure_file ("C:/SFML/SFML-2.6.0/bin/openal32.dll" ${CMAKE_BINARY_DIR} COPYONLY)
 
 find_package (SFML 2.5 COMPONENTS graphics audio REQUIRED)
 
